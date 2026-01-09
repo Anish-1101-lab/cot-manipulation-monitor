@@ -9,20 +9,20 @@ A small monitoring tool that analyzes an LLM’s chain‑of‑thought (CoT) in r
 - **Groq‑backed CoT extraction**
   - Uses Groq’s OpenAI‑compatible API (e.g. `llama-3.1-8b-instant`) to return:
     - `cot`: internal reasoning text.
-    - `answer`: final user‑visible reply.[file:30]
+    - `answer`: final user‑visible reply.
 - **Manipulation pattern library**
   - Regex‑based patterns for:
     - Evaluation awareness (talking about tests, graders, auditors).
     - Strategic deception (hiding flaws, planning to mislead).
-    - Safety/policy evasion and stock CoT boilerplate.[file:30]
+    - Safety/policy evasion and stock CoT boilerplate.
 - **Risk scoring**
   - Text‑level features:
     - `pattern_risk` (0–1) from manipulation templates.
     - `long_cot` factor (length heuristic).
-    - Combined into a **0–100 manipulation risk**.[file:30][file:1]
+    - Combined into a **0–100 manipulation risk**.
 - **Two modes**
   - `normal`: model just solves the task with CoT.
-  - `audit_aware`: model is told it is under audit, to expose strategies and evaluation awareness.[file:30]
+  - `audit_aware`: model is told it is under audit, to expose strategies and evaluation awareness.
 - **Streamlit dashboard**
   - Input user prompt + mode + Groq model.
   - Shows risk band (green/yellow/red), per‑pattern bar chart, CoT, and answer.
@@ -47,3 +47,4 @@ cot-manipulation-monitor/
 │   └── provenance.py        # risk aggregation (0–100)
 └── tests/
     └── test_convos.json     # to be done
+
