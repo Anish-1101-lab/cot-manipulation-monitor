@@ -1,6 +1,6 @@
 # Chain-of-Thought Manipulation Monitor
 
-A small monitoring tool that analyzes an LLM’s chain‑of‑thought (CoT) in real time to detect **manipulative reasoning patterns** (evaluation awareness, deception planning, safety evasion) and outputs a **0–100 risk score** with a Streamlit dashboard.[file:30]
+A small monitoring tool that analyzes an LLM’s chain‑of‑thought (CoT) in real time to detect **manipulative reasoning patterns** (evaluation awareness, deception planning, safety evasion) and outputs a **0–100 risk score** with a Streamlit dashboard.
 
 ---
 
@@ -47,4 +47,5 @@ cot-manipulation-monitor/
 │   └── provenance.py        # risk aggregation (0–100)
 └── tests/
     └── test_convos.json     # to be done
+
 
