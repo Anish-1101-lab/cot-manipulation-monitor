@@ -470,8 +470,8 @@ def aggregate_pattern_risk(scores: Dict[str, float]) -> float:
     max_component = max_weighted / max(weights or [1.0])   # normalize by max weight -> 0–1
 
     # Blend them: adjust alphas to taste
-    alpha_max = 0.7   # sensitivity to strongest pattern
-    alpha_mean = 0.3  # background “how many patterns fire”
+    alpha_max = 0.9   # sensitivity to strongest pattern
+    alpha_mean = 0.1  # background “how many patterns fire”
 
     pattern_risk = alpha_max * max_component + alpha_mean * mean_component
     return max(0.0, min(pattern_risk, 1.0))
