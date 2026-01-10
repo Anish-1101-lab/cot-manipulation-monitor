@@ -20,7 +20,8 @@ if st.button("Analyze") and query.strip():
         res = extract_cot(query, mode=mode, model=model)
         cot = res["cot"]
         answer = res["answer"]
-        metrics = compute_risk_score(cot)
+        # compute_risk_score(prompt, cot, answer)
+        metrics = compute_risk_score(query, cot, answer)
 
     risk = metrics["risk"]
 
@@ -37,6 +38,10 @@ if st.button("Analyze") and query.strip():
 
         st.metric("Pattern risk", f"{metrics['pattern_risk']:.2f}")
         st.metric("CoT length factor", f"{metrics['long_cot']:.2f}")
+        st.metric("Prompt–CoT similarity", f"{metrics['cos_sim_prompt_cot']:.2f}")
+        st.metric("CoT–answer similarity", f"{metrics['cos_sim_answer_cot']:.2f}")
+        st.metric("Off-topic score", f"{metrics['off_topic_score']:.2f}")
+        st.metric("Misalignment score", f"{metrics['misalign_score']:.2f}")
         st.metric("Compression ratio", f"{metrics['compression_ratio']:.3f}")
         st.metric("Zlib entropy risk", f"{metrics['zlib_entropy_risk']:.2f}")
 

@@ -6,9 +6,8 @@ from openai import OpenAI  # same SDK
 
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key=os.environ["GROQ_API_KEY"],
+    api_key=os.environ["GROQ_API_KEY"],   # <--- not the literal key
 )
-
 
 Mode = Literal["normal", "audit_aware"]
 
