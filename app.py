@@ -37,6 +37,8 @@ if st.button("Analyze") and query.strip():
 
         st.metric("Pattern risk", f"{metrics['pattern_risk']:.2f}")
         st.metric("CoT length factor", f"{metrics['long_cot']:.2f}")
+        st.metric("Compression ratio", f"{metrics['compression_ratio']:.3f}")
+        st.metric("Zlib entropy risk", f"{metrics['zlib_entropy_risk']:.2f}")
 
         # per-pattern bar chart
         pattern_items = {
