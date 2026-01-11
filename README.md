@@ -46,7 +46,7 @@ Developed as part of the Apart Research AI Manipulation Hackathon and described 
 
 ```bash
 cot-manipulation-monitor/
-├── cot_bypass_monitor/          # causal CoT-bypass code (Qwen2.5-0.5B, etc.)
+├── cot_bypass_monitor/          # causal CoT-bypass code 
 │  ├── good/  
 │   ├── __init__.py
 │   └── cot_bypass_monitor.py
@@ -140,6 +140,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
