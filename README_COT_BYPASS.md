@@ -28,9 +28,11 @@ This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor.
 - **CoT token positions:** $\mathcal{C}$
 - **Non-CoT control positions:** $\mathcal{N}$
 
-**Log-probability under prompt** $x$:
+**Log-probability under prompt** $x$ :
 
-$$\log P(y \mid x) = \sum_{t=1}^{T} \log p(y_t \mid x, y_{<t})$$
+```math
+\log P(y \mid x) = \sum_{t=1}^{T} \log p(y_t \mid x, y_{<t})
+```
 
 ---
 
@@ -88,7 +90,7 @@ The resulting value is **Placebo_CMI**.
 
 The validity index measures how much more the real CoT content matters compared to placebo noise:
 
-$$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo\_CMI})}{\max(\text{CMI}, \epsilon)}$$
+$$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo CMI})}{\max(\text{CMI}, \epsilon)}$$
 
 **High validity** means real CoT content matters more than placebo noise.
 
