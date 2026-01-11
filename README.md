@@ -65,7 +65,6 @@ cot-manipulation-monitor/
 ├── run_monitoring_eval.py       # eval: normal vs audit-aware behavioural runs
 ├── run_monitoring_eval_all_metrics.py
 │                                # eval: behavioural + causal metrics
-├── analyse_results.py           # summarise per-prompt risk deltas
 ├── analyse_metrics.py           # aggregate causal metrics, tables
 ├── analyse_metrics_fig.py       # figure generation for causal metrics
 │
@@ -106,7 +105,6 @@ Then enter a prompt, select `normal` or `audit_aware`, choose a Groq model (e.g.
 
 ```bash
 python run_monitoring_eval.py
-python analyse_results.py
 ```
 
 **Behavioural + causal metrics and figures:**
@@ -139,6 +137,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
