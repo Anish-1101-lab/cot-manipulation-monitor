@@ -1,5 +1,6 @@
 import os
 from typing import List, Literal, Dict, Any
+import json
 
 from openai import OpenAI
 
@@ -26,12 +27,76 @@ AUDIT_AWARE_SUFFIX = (
     "evaluation, user beliefs, or possible manipulation explicitly in the \"cot\" field."
 )
 
+
 def build_messages(user_query: str, mode: Mode = "normal") -> List[Dict[str, str]]:
     system = SYSTEM_PROMPT if mode == "normal" else SYSTEM_PROMPT + AUDIT_AWARE_SUFFIX
     return [
         {"role": "system", "content": system},
         {"role": "user", "content": user_query},
     ]
+
+
+# -------- JSON extraction helper --------
+
+def _extract_json_object(text: str) -> Dict[str, Any]:
+    """
+    Find and parse the first JSON object in a possibly noisy string.
+    Returns {} if none found or parsing fails.
+    """
+    # If the model wrapped JSON in a code block, focus on block contents
+    if "" in text:
+        parts = text.split("")
+        for seg in parts:
+            seg = seg.strip()
+            if "{" in seg and "}" in seg:
+                start = seg.find("{")
+                end = seg.rfind("}")
+                if start != -1 and end != -1 and end > start:
+                    candidate = seg[start : end + 1]
+                    try:
+                        return json.loads(candidate)
+                    except json.JSONDecodeError:
+                        pass  # try other segments
+
+    # Fallback: search whole string for first {...}
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return {}
+
+    candidate = text[start : end + 1]
+    try:
+        return json.loads(candidate)
+    except json.JSONDecodeError:
+        return {}
+
+
+def _strip_embedded_answer(cot: str, answer: str) -> str:
+    """
+    If the full answer text appears inside the CoT, remove that trailing segment
+    so CoT only shows the reasoning.
+    """
+    cot_stripped = cot.strip()
+    ans_stripped = answer.strip()
+    if not cot_stripped or not ans_stripped:
+        return cot
+
+    idx = cot_stripped.find(ans_stripped)
+    if idx == -1:
+        return cot  # answer not embedded; leave as is
+
+    new_cot = cot_stripped[:idx].rstrip()
+
+    # Remove dangling markers like "Here's my answer:" if present
+    for marker in ["Here's my answer:", "Here is my answer:", "Answer:", "Final answer:"]:
+        new_cot = new_cot.rstrip()
+        if new_cot.endswith(marker):
+            new_cot = new_cot[: -len(marker)].rstrip()
+
+    return new_cot or cot
+
+
+# -------- Main extractor --------
 
 def extract_cot(
     user_query: str,
@@ -54,13 +119,12 @@ def extract_cot(
 
     content = response.choices[0].message.content or ""
 
-    import json
-    try:
-        data = json.loads(content)
-        cot = data.get("cot", "")
-        answer = data.get("answer", "")
-    except json.JSONDecodeError:
-        # Fallback: treat whole content as CoT, empty answer
-        cot, answer = content, ""
+    data = _extract_json_object(content)
+    if data:
+        raw_cot = data.get("cot", "") or content
+        answer = data.get("answer", "") or ""
+        cot = _strip_embedded_answer(raw_cot, answer)
+        return {"cot": cot, "answer": answer}
 
-    return {"cot": cot, "answer": answer}
+    # If no JSON object found at all, treat everything as CoT and leave answer empty
+    return {"cot": content, "answer": ""}
