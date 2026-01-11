@@ -35,7 +35,8 @@ Developed as part of the Apart Research AI Manipulation Hackathon and described 
   - Input: user prompt + mode + Groq model.
   - Output: risk band (green/yellow/red), per-pattern bar chart, semantic & structural scores, CoT, and answer.
 
-- **Causal CoT-bypass monitor** (`cot_bypass_monitor/`)
+- **Causal CoT-bypass monitor** (`48
+- `)
   - Source-patching on CoT token positions vs non-CoT controls.
   - Reports CoT-Mediated Influence (CMI), bypass, placebo CMI, validity, density, sequentiality, and boundary robustness.
 
@@ -46,6 +47,7 @@ Developed as part of the Apart Research AI Manipulation Hackathon and described 
 ```bash
 cot-manipulation-monitor/
 ├── cot_bypass_monitor/          # causal CoT-bypass code (Qwen2.5-0.5B, etc.)
+│  ├── good/  # clean runs subdirectory
 │   ├── __init__.py
 │   └── cot_bypass_monitor.py
 │
@@ -72,6 +74,7 @@ cot-manipulation-monitor/
 ├── README_COT_BYPASS.md         # detailed causal metric definitions and math
 ├── requirements.txt             # Python dependencies
 └── .DS_Store                    # macOS metadata (can be ignored)
+├── Apart_Submission_Final.pdf  # research paper submission
 ```
 
 
