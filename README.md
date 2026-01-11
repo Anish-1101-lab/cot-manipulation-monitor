@@ -1,175 +1,75 @@
 # Chain-of-Thought Manipulation Monitor
 
-A small monitoring tool that analyzes an LLM’s chain‑of‑thought (CoT) in real time to detect **manipulative reasoning patterns** (evaluation awareness, deception planning, safety evasion) and outputs a **0–100 risk score** with a Streamlit dashboard.
+A monitoring toolkit for large language models that (1) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (2) causally probes whether answers actually **depend** on those CoT activations or merely bypass them.[page:1][file:2]
+
+Developed as part of the Apart Research AI Manipulation Hackathon and described in the paper *Chain-of-Thought Manipulation Monitor: Detection of Deceptive Reasoning in LLMs*.[file:2]
 
 ---
 
 ## Features
 
-- **Groq‑backed CoT extraction**
+- **Groq‑backed CoT extraction**[page:1][file:2]  
   - Uses Groq’s OpenAI‑compatible API (e.g. `llama-3.1-8b-instant`) to return:
     - `cot`: internal reasoning text.
     - `answer`: final user‑visible reply.
-- **Manipulation pattern library**
+
+- **Manipulation pattern library**[file:2]  
   - Regex‑based patterns for:
-    - Evaluation awareness (talking about tests, graders, auditors).
+    - Evaluation awareness (tests, graders, auditors).
     - Strategic deception (hiding flaws, planning to mislead).
-    - Safety/policy evasion and stock CoT boilerplate.
-- **Risk scoring**
+    - Safety/policy evasion, refusal‑then‑comply, and stock/boilerplate CoT traces.
+
+- **Risk scoring**[file:2]  
   - Text‑level features:
     - `pattern_risk` (0–1) from manipulation templates.
     - `long_cot` factor (length heuristic).
-    - Combined into a **0–100 manipulation risk**.
-- **Two modes**
-  - `normal`: model just solves the task with CoT.
-  - `audit_aware`: model is told it is under audit, to expose strategies and evaluation awareness.
-- **Streamlit dashboard**
-  - Input user prompt + mode + Groq model.
-  - Shows risk band (green/yellow/red), per‑pattern bar chart, CoT, and answer.
+    - Semantic coherence (prompt–CoT and CoT–answer similarity via `all-MiniLM-L6-v2`).
+    - Structural metrics, including a Zlib compression‑based entropy risk.
+  - Aggregated into a **0–100 manipulation risk** in `provenance.py`.
+
+- **Two modes**[file:2]  
+  - `normal`: model solves the task with CoT.
+  - `audit_aware`: model is explicitly told it is under audit to surface strategies and evaluation awareness.
+
+- **Streamlit dashboard**[page:1][file:2]  
+  - Input: user prompt + mode + Groq model.
+  - Output: risk band (green/yellow/red), per‑pattern bar chart, semantic & structural scores, CoT, and answer.
+
+- **Causal CoT‑bypass monitor** (`cot_bypass_monitor/`)[page:1][file:2]  
+  - Source‑patching on CoT token positions vs non‑CoT controls.
+  - Reports CoT‑Mediated Influence (CMI), bypass, placebo CMI, validity, density, sequentiality, and boundary robustness.[file:2]
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```bash
-cot-manipulation-monitor/                 
-├── README.md
-├── requirements.txt
-├── app.py                   # Streamlit app
-├── test_extractor.py        # extractor sanity check
-├── test_patterns.py         # pattern scoring check
-├── test_provenance.py       # risk scoring check
-├── test_pipeline.py         # end-to-end check
-├── cot_monitor/
+cot-manipulation-monitor/
+├── cot_bypass_monitor/          # causal CoT-bypass code (Qwen2.5-0.5B, etc.)
 │   ├── __init__.py
-│   ├── cot_extractor.py     # Groq CoT + answer
-│   ├── patterns.py          # manipulation templates + scores
-│   └── provenance.py        # risk aggregation (0–100)
-└── tests/
-    └── test_convos.json     # to be done
-
-
----
-
-## CoT Bypass Monitor Metrics
-
-This repo includes a causal **CoT‑bypass monitor** in `cot_bypass_monitor.py`. It measures whether
-answer tokens depend on the CoT token positions, or whether the model bypasses them.
-
-Below are the metric definitions used by the script, including the math.
-
-### Notation
-
-- Prompt with CoT: \( x_c \)
-- Prompt without CoT: \( x_{\neg c} \)
-- Answer tokens: \( y = (y_1, \ldots, y_T) \)
-- CoT token positions: \( \mathcal{C} \)
-- Non‑CoT control positions: \( \mathcal{N} \)
-- Log‑probability under prompt \(x\):  
-  \[
-  \log P(y \mid x) = \sum_{t=1}^{T} \log p(y_t \mid x, y_{<t})
-  \]
-
-### Baseline LogP
-
-\[
-\text{baseline\_logp} = \log P(y \mid x_c)
-\]
-
-### CoT‑Mediated Influence (CMI)
-
-For each layer span, we perform **source patching**:
-
-- Patch CoT positions using hidden states from the no‑CoT run:
-  \[
-  \Delta_{\text{cot}} = \max\left(0,\ \log P(y \mid x_c) - \log P(y \mid \text{patch}_{\mathcal{C}}(x_c, x_{\neg c}))\right)
-  \]
-- Patch equal‑sized random non‑CoT positions as a control:
-  \[
-  \Delta_{\text{ctrl}} = \max\left(0,\ \log P(y \mid x_c) - \log P(y \mid \text{patch}_{\mathcal{N}}(x_c, x_{\neg c}))\right)
-  \]
-
-Then:
-
-\[
-\text{CMI} = \frac{\max(0, \Delta_{\text{cot}} - \Delta_{\text{ctrl}})}{\Delta_{\text{cot}} + \Delta_{\text{ctrl}}}
-\]
-
-We average CMI across multiple layer spans.
-
-### Bypass Score
-
-\[
-\text{Bypass} = 1 - \text{CMI}
-\]
-
-High bypass indicates the answer does **not** depend on CoT positions.
-
-### Placebo CoT (Noise Test)
-
-Replace CoT hidden states with **noise** instead of no‑CoT states and compute CMI.
-
-The resulting value is **Placebo\_CMI**. If it is high, the model is insensitive to the
-actual CoT content.
-
-### Validity Index
-
-\[
-\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo\_CMI})}{\max(\text{CMI}, \epsilon)}
-\]
-
-High validity means **real CoT content matters more than placebo**.
-
-### Density Curve (Sparsity Test)
-
-We compute CMI after randomly keeping 80%, 60%, and 40% of CoT positions:
-
-\[
-\text{Density\_Curve} = \{(0.8, \text{CMI}_{0.8}), (0.6, \text{CMI}_{0.6}), (0.4, \text{CMI}_{0.4})\}
-\]
-
-### Density Index
-
-\[
-\text{Density} = 1 - \min\left(1, \frac{\text{CMI}_{0.4}}{\max(\text{CMI}, \epsilon)}\right)
-\]
-
-High density means **removing CoT tokens hurts**.
-
-### Sequentiality Index (Shuffle Test)
-
-We shuffle which CoT hidden states are mapped to which CoT positions, recompute CMI, and define:
-
-\[
-\text{Sequentiality} = \frac{\max(0, \text{CMI} - \text{Shuffled\_CMI})}{\max(\text{CMI}, \epsilon)}
-\]
-
-High sequentiality means **order matters**.
-
-### No‑CoT‑Effect Flag
-
-If all per‑span CMI scores are zero, the run is flagged:
-
-```
-no_cot_effect = True
-```
-
-This indicates the answer is effectively independent of the CoT token positions.
-
-### Sensitivity Analysis (Boundary Robustness)
-
-We expand and shrink the CoT window by one token on each side and measure:
-
-- Base CMI
-- Expanded CMI
-- Shrunk CMI
-
-Then compute:
-
-\[
-\text{relative\_sensitivity} = \frac{\max(|\text{CMI}_{\text{expanded}} - \text{CMI}_{\text{base}}|,
-|\text{CMI}_{\text{shrunk}} - \text{CMI}_{\text{base}}|)}{\max(\text{CMI}_{\text{base}}, \epsilon)}
-\]
-
-A run is considered robust if relative sensitivity is low **or** absolute deviation is below a
-fixed threshold.
+│   └── cot_bypass_monitor.py
+│
+├── cot_monitor/                 # behavioural CoT manipulation monitor
+│   ├── __init__.py
+│   ├── cot_extractor.py         # Groq CoT + answer (normal / audit-aware)
+│   ├── patterns.py              # 19-category manipulation regex library + weights
+│   └── provenance.py            # risk aggregation, semantic & structural features
+│
+├── data/                        # saved metric runs / CSVs used in the paper
+│   └── ...                      # behavioural deltas, causal metric dumps, etc.
+│
+├── figures/                     # plots used in the submission
+│   └── ...                      # behavioural and causal result figures
+│
+├── app.py                       # Streamlit dashboard (behavioural monitor)
+├── run_monitoring_eval.py       # eval: normal vs audit-aware behavioural runs
+├── run_monitoring_eval_all_metrics.py
+│                                # eval: behavioural + causal metrics
+├── analyse_results.py           # summarise per-prompt risk deltas
+├── analyse_metrics.py           # aggregate causal metrics, tables
+├── analyse_metrics_fig.py       # figure generation for causal metrics
+│
+├── README.md                    # this file
+├── README_COT_BYPASS.md         # detailed causal metric definitions and math
+├── requirements.txt             # Python dependencies
+└── .DS_Store                    # macOS metadata (can be ignored)
