@@ -5,6 +5,7 @@ from datasets import load_dataset
 import random
 import json
 import numpy as np
+import re
 import contextlib
 from copy import deepcopy
 import math
@@ -51,6 +52,12 @@ def set_seeds(seed=42):
     torch.manual_seed(seed)
 
 set_seeds()
+
+def apply_chat_template(user_text):
+    if hasattr(tokenizer, "apply_chat_template"):
+        messages = [{"role": "user", "content": user_text}]
+        return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    return user_text
 
 def to_device(batch):
     return {k: v.to(DEVICE) for k, v in batch.items()}
@@ -128,7 +135,8 @@ def generate_cot_text(prompt, context_hint=None, max_new_tokens=MAX_COT_TOKENS):
     """
     Generate a short CoT continuation from the model for span-based patching.
     """
-    input_ids = tokenizer(prompt, return_tensors='pt').input_ids.to(DEVICE)
+    prompt_text = apply_chat_template(prompt)
+    input_ids = tokenizer(prompt_text, return_tensors='pt').input_ids.to(DEVICE)
     attention_mask = build_attention_mask(input_ids)
     output = model.generate(
         input_ids=input_ids,
@@ -161,7 +169,8 @@ def generate_cot_text(prompt, context_hint=None, max_new_tokens=MAX_COT_TOKENS):
     return text
 
 def generate_answer_text(prompt, max_new_tokens=20):
-    input_ids = tokenizer(prompt, return_tensors='pt').input_ids.to(DEVICE)
+    prompt_text = apply_chat_template(prompt)
+    input_ids = tokenizer(prompt_text, return_tensors='pt').input_ids.to(DEVICE)
     attention_mask = build_attention_mask(input_ids)
     output = model.generate(
         input_ids=input_ids,
@@ -175,6 +184,23 @@ def generate_answer_text(prompt, max_new_tokens=20):
     text = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
     return text
 
+def clean_generated_answer(text):
+    if not text:
+        return ""
+    for marker in ["Human:", "Assistant:", "\n"]:
+        if marker in text:
+            text = text.split(marker, 1)[0].strip()
+    return text.strip()
+
+def is_bad_generated(text, gold_answer):
+    if not text:
+        return True
+    if "Human:" in text or "Assistant:" in text:
+        return True
+    if gold_answer and gold_answer.strip().isdigit():
+        return not text.strip().isdigit()
+    return False
+
 def build_synthetic_math_dataset(n):
     samples = []
     for _ in range(n):
@@ -186,7 +212,8 @@ def build_synthetic_math_dataset(n):
         samples.append({"question": question, "answer": answer})
     return samples
 
-def perform_sensitivity_analysis(prefix_ids, answer_ids, base_cot_positions, num_layers, control_samples=8, span_samples=8, max_span_size=3):
+def perform_sensitivity_analysis(prefix_ids, answer_ids, base_cot_positions, num_layers, control_samples=8,
+                                 span_samples=8, max_span_size=3, layer_spans=None):
     """
     Perform sensitivity analysis by expanding/shrinking the intervention window.
     Tests if CMI changes drastically with boundary adjustments.
@@ -205,7 +232,8 @@ def perform_sensitivity_analysis(prefix_ids, answer_ids, base_cot_positions, num
         num_layers=num_layers,
         control_samples=control_samples,
         span_samples=span_samples,
-        max_span_size=max_span_size
+        max_span_size=max_span_size,
+        layer_spans=layer_spans
     )
     base_cmi = base_result['cmi_mean']
 
@@ -224,7 +252,8 @@ def perform_sensitivity_analysis(prefix_ids, answer_ids, base_cot_positions, num
         num_layers=num_layers,
         control_samples=control_samples,
         span_samples=span_samples,
-        max_span_size=max_span_size
+        max_span_size=max_span_size,
+        layer_spans=layer_spans
     )
     expanded_cmi = expanded_result['cmi_mean']
 
@@ -243,7 +272,8 @@ def perform_sensitivity_analysis(prefix_ids, answer_ids, base_cot_positions, num
             num_layers=num_layers,
             control_samples=control_samples,
             span_samples=span_samples,
-            max_span_size=max_span_size
+            max_span_size=max_span_size,
+            layer_spans=layer_spans
         )
         shrunk_cmi = shrunk_result['cmi_mean']
     else:
@@ -729,7 +759,8 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
         print(f"  CoT token positions: {cot_token_positions}")
         print(f"  CoT tokens: {tokenizer.decode(tokenized_with_cot['input_ids'][0, cot_token_positions])}")
 
-        generated_answer = generate_answer_text(prompt_with_cot, max_new_tokens=10)
+        generated_answer_raw = generate_answer_text(prompt_with_cot, max_new_tokens=10)
+        generated_answer = clean_generated_answer(generated_answer_raw)
         candidate_answers = []
         if generated_answer:
             candidate_answers.append(("generated", generated_answer))
@@ -739,16 +770,29 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
         if not candidate_answers:
             continue
 
+        if answer and is_bad_generated(generated_answer_raw, answer):
+            primary_label = "gold"
+        else:
+            primary_label = "generated" if generated_answer else candidate_answers[0][0]
+
+        if primary_label == "gold" and answer:
+            primary_answer_text = answer
+        else:
+            primary_answer_text = generated_answer or candidate_answers[0][1]
+
         try:
-            # Perform sensitivity analysis first
+            fixed_spans = build_fixed_layer_spans(len(get_model_layers(model)))
+
+            # Perform sensitivity analysis first (use the same layer spans for consistency).
             sensitivity_result = perform_sensitivity_analysis(
                 tokenized_with_cot['input_ids'],
-                tokenizer(candidate_answers[0][1], add_special_tokens=False)['input_ids'],
+                tokenizer(primary_answer_text, add_special_tokens=False)['input_ids'],
                 cot_token_positions,
                 num_layers=len(get_model_layers(model)),
                 control_samples=control_samples,
                 span_samples=span_samples,
-                max_span_size=max_span_size
+                max_span_size=max_span_size,
+                layer_spans=fixed_spans
             )
 
             print(f"  Sensitivity Analysis:")
@@ -760,14 +804,12 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
             print(f"    Is Robust: {sensitivity_result['is_robust']}")
 
             # Run main intervention analysis with validated positions
-            fixed_spans = build_fixed_layer_spans(len(get_model_layers(model)))
             layer_spans = fixed_spans + sample_layer_spans(
                 max(0, span_samples - len(fixed_spans)),
                 len(get_model_layers(model)),
                 max_span_size=max_span_size
             )
             metrics_by_answer = {}
-            primary_label = "generated" if generated_answer else candidate_answers[0][0]
 
             for label, ans_text in candidate_answers:
                 answer_token_ids = tokenizer(ans_text, add_special_tokens=False)['input_ids']
@@ -792,6 +834,7 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
 
                 cmi_score = analysis_result['cmi_mean']
                 bypass_score = analysis_result['bypass_mean']
+                low_signal = cmi_score < CMI_BASE_FLOOR
 
                 placebo_result = run_cmi_analysis(
                     full_with_cot,
@@ -805,7 +848,10 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                     patch_mode="noise"
                 )
                 placebo_cmi = placebo_result['cmi_mean']
-                validity_index = max(0.0, cmi_score - placebo_cmi) / max(cmi_score, CMI_BASE_FLOOR)
+                if low_signal:
+                    validity_index = 0.0
+                else:
+                    validity_index = max(0.0, cmi_score - placebo_cmi) / max(cmi_score, CMI_BASE_FLOOR)
 
                 sparsity_levels = [0.8, 0.6, 0.4]
                 density_curve = []
@@ -827,7 +873,10 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                     density_curve.append({'keep_frac': keep_frac, 'cmi': sparse_result['cmi_mean']})
 
                 cmi_40 = next((d['cmi'] for d in density_curve if d['keep_frac'] == 0.4), 0.0)
-                density_index = 1.0 - min(1.0, cmi_40 / max(cmi_score, CMI_BASE_FLOOR))
+                if low_signal:
+                    density_index = 0.0
+                else:
+                    density_index = 1.0 - min(1.0, cmi_40 / max(cmi_score, CMI_BASE_FLOOR))
 
                 permuted_positions = cot_token_positions.copy()
                 random.shuffle(permuted_positions)
@@ -843,7 +892,10 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                     patch_mode="shuffle",
                     permute_positions=permuted_positions
                 )
-                sequentiality_score = max(0.0, cmi_score - shuffle_result['cmi_mean']) / max(cmi_score, CMI_BASE_FLOOR)
+                if low_signal:
+                    sequentiality_score = 0.0
+                else:
+                    sequentiality_score = max(0.0, cmi_score - shuffle_result['cmi_mean']) / max(cmi_score, CMI_BASE_FLOOR)
 
                 metrics_by_answer[label] = {
                     'answer_text': ans_text,
@@ -857,6 +909,7 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                     'Sequentiality_Index': sequentiality_score,
                     'Shuffled_CMI': shuffle_result['cmi_mean'],
                     'no_cot_effect': analysis_result['no_cot_effect'],
+                    'low_signal': low_signal,
                     'intervention_records': analysis_result['intervention_records'],
                 }
 
@@ -869,6 +922,7 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                 'context': context,
                 'question': question,
                 'answer': answer,
+                'generated_answer_raw': generated_answer_raw,
                 'generated_answer': generated_answer,
                 'primary_label': primary_label,
                 'baseline_logp': primary_metrics['baseline_logp'],
@@ -881,6 +935,7 @@ def run_analysis(num_samples=10, control_samples=8, span_samples=8, max_span_siz
                 'Sequentiality_Index': primary_metrics['Sequentiality_Index'],
                 'Shuffled_CMI': primary_metrics['Shuffled_CMI'],
                 'no_cot_effect': primary_metrics['no_cot_effect'],
+                'low_signal': primary_metrics.get('low_signal', False),
                 'intervention_records': primary_metrics['intervention_records'],
                 'metrics_by_answer': metrics_by_answer,
                 'cot_positions': cot_token_positions,
@@ -941,6 +996,7 @@ if __name__ == '__main__':
         print(f"\nSample {i+1}:")
         print(f"  Question: {record['question'][:100]}...")
         print(f"  Answer: {record['answer'][:50]}...")
+        print(f"  Generated Answer (raw): {record['generated_answer_raw'][:50]}...")
         print(f"  Generated Answer: {record['generated_answer'][:50]}...")
         print(f"  Primary Label: {record['primary_label']}")
         print(f"  CoT Positions: {record['cot_positions']}")
@@ -952,5 +1008,6 @@ if __name__ == '__main__':
         print(f"  Sequentiality Index: {record['Sequentiality_Index']:.3f}")
         print(f"  Density Index: {record['Density_Index']:.3f}")
         print(f"  No-CoT-Effect: {record['no_cot_effect']}")
+        print(f"  Low Signal: {record.get('low_signal', False)}")
         print(f"  Sensitivity: {record['sensitivity']['relative_sensitivity']:.3f}")
         print(f"  Robust: {record['sensitivity']['is_robust']}")
