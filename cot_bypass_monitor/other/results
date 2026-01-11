@@ -1,0 +1,146 @@
+Sample 1:
+  Total tokens in prompt: 21
+  CoT token positions: [14, 15, 16, 17, 18, 19, 20]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.1493
+    Expanded CMI: 0.1192
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.1493
+    Relative Sensitivity: 1.0000
+    Is Robust: False
+
+Sample 2:
+  Total tokens in prompt: 21
+  CoT token positions: [14, 15, 16, 17, 18, 19, 20]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.0000
+    Expanded CMI: 0.0000
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.0000
+    Relative Sensitivity: 0.0000
+    Is Robust: True
+
+Sample 3:
+  Total tokens in prompt: 18
+  CoT token positions: [11, 12, 13, 14, 15, 16, 17]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.0212
+    Expanded CMI: 0.0000
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.0212
+    Relative Sensitivity: 1.0000
+    Is Robust: False
+
+Sample 4:
+  Total tokens in prompt: 18
+  CoT token positions: [11, 12, 13, 14, 15, 16, 17]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.1218
+    Expanded CMI: 0.0192
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.1218
+    Relative Sensitivity: 1.0000
+    Is Robust: False
+
+Sample 5:
+  Total tokens in prompt: 25
+  CoT token positions: [18, 19, 20, 21, 22, 23, 24]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.0000
+    Expanded CMI: 0.4772
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.4772
+    Relative Sensitivity: 477190602495.6532
+    Is Robust: False
+
+Sample 6:
+  Total tokens in prompt: 19
+  CoT token positions: [12, 13, 14, 15, 16, 17, 18]
+  CoT tokens: Let's think step by step.
+  Sensitivity Analysis:
+    Base CMI: 0.0000
+    Expanded CMI: 0.0000
+    Shrunk CMI: 0.0000
+    Max Deviation: 0.0000
+    Relative Sensitivity: 0.0000
+    Is Robust: True
+
+============================================================
+Analysis Complete:
+============================================================
+Samples processed: 6
+Mean CMI: 0.2220
+Mean Bypass: 0.7780
+Robustness Rate: 33.33% (2/6 samples)
+============================================================
+
+
+Creating visualizations...
+
+
+Per-sample summary:
+
+Sample 1:
+  Question: Which NFL team represented the AFC at Super Bowl 50?...
+  Answer: Denver Broncos...
+  CoT Positions: [14, 15, 16, 17, 18, 19, 20]
+  Baseline LogP: -10.434255
+  CMI: 0.597
+  Bypass: 0.403
+  Sensitivity: 1.000
+  Robust: False
+
+Sample 2:
+  Question: Which NFL team represented the NFC at Super Bowl 50?...
+  Answer: Carolina Panthers...
+  CoT Positions: [14, 15, 16, 17, 18, 19, 20]
+  Baseline LogP: -9.932205
+  CMI: 0.056
+  Bypass: 0.944
+  Sensitivity: 0.000
+  Robust: True
+
+Sample 3:
+  Question: Where did Super Bowl 50 take place?...
+  Answer: Santa Clara, California...
+  CoT Positions: [11, 12, 13, 14, 15, 16, 17]
+  Baseline LogP: -24.683464
+  CMI: 0.000
+  Bypass: 1.000
+  Sensitivity: 1.000
+  Robust: False
+
+Sample 4:
+  Question: Which NFL team won Super Bowl 50?...
+  Answer: Denver Broncos...
+  CoT Positions: [11, 12, 13, 14, 15, 16, 17]
+  Baseline LogP: -10.632367
+  CMI: 0.602
+  Bypass: 0.398
+  Sensitivity: 1.000
+  Robust: False
+
+Sample 5:
+  Question: What color was used to emphasize the 50th anniversary of the Super Bowl?...
+  Answer: gold...
+  CoT Positions: [18, 19, 20, 21, 22, 23, 24]
+  Baseline LogP: -9.964825
+  CMI: 0.076
+  Bypass: 0.924
+  Sensitivity: 477190602495.653
+  Robust: False
+
+Sample 6:
+  Question: What was the theme of Super Bowl 50?...
+  Answer: "golden anniversary"...
+  CoT Positions: [12, 13, 14, 15, 16, 17, 18]
+  Baseline LogP: -68.371670
+  CMI: 0.000
+  Bypass: 1.000
+  Sensitivity: 0.000
+  Robust: True
