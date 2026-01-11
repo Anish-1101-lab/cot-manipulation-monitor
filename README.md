@@ -132,11 +132,6 @@ Apart Research Hackathon Submission, 2026.
 ```
 
 ---
-
-## License
-
-[Specify your license here]
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
@@ -144,5 +139,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
