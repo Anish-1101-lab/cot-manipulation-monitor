@@ -38,7 +38,7 @@ $$\log P(y \mid x) = \sum_{t=1}^{T} \log p(y_t \mid x, y_{<t})$$
 
 The baseline log-probability is computed using the prompt with CoT:
 
-$$\text{baseline\_logp} = \log P(y \mid x_c)$$
+$\text{baseline{\_}logp} = \log P(y \mid x_c)$
 
 ---
 
@@ -80,7 +80,7 @@ $$\text{Bypass} = 1 - \text{CMI}$$
 
 To validate that CMI measures genuine CoT dependence rather than artifacts, we replace CoT hidden states with **random noise** instead of no-CoT states and compute CMI.
 
-The resulting value is **Placebo\_CMI**.
+The resulting value is **Placebo{\_}CMI**.
 
 ---
 
@@ -88,7 +88,7 @@ The resulting value is **Placebo\_CMI**.
 
 The validity index measures how much more the real CoT content matters compared to placebo noise:
 
-$$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo\_CMI})}{\max(\text{CMI}, \epsilon)}$$
+$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo{\_}CMI})}{\max(\text{CMI}, \epsilon)}$
 
 **High validity** means real CoT content matters more than placebo noise.
 
@@ -98,7 +98,7 @@ $$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo\_CMI})}{\max(\text{
 
 We compute CMI after randomly keeping different fractions of CoT positions (80%, 60%, and 40%):
 
-$$\text{Density\_Curve} = \{(0.8, \text{CMI}_{0.8}), (0.6, \text{CMI}_{0.6}), (0.4, \text{CMI}_{0.4})\}$$
+$\text{Density{\_}Curve} = \{(0.8, \text{CMI}_{0.8}), (0.6, \text{CMI}_{0.6}), (0.4, \text{CMI}_{0.4})\}$
 
 This tests whether the influence is **sparse** (concentrated in few tokens) or **distributed** across many tokens.
 
@@ -118,7 +118,7 @@ $$\text{Density} = 1 - \min\left(1, \frac{\text{CMI}_{0.4}}{\max(\text{CMI}, \ep
 
 To test whether the **order** of CoT reasoning matters, we shuffle which CoT hidden states are mapped to which CoT positions, recompute CMI, and define:
 
-$$\text{Sequentiality} = \frac{\max(0, \text{CMI} - \text{Shuffled\_CMI})}{\max(\text{CMI}, \epsilon)}$$
+$\text{Sequentiality} = \frac{\max(0, \text{CMI} - \text{Shuffled{\_}CMI})}{\max(\text{CMI}, \epsilon)}$
 
 **High sequentiality** means the order of CoT tokens matters for the answer.
 
@@ -146,7 +146,7 @@ To test the robustness of CMI measurements, we expand and shrink the CoT window 
 
 ### Relative Sensitivity
 
-$$\text{relative\_sensitivity} = \frac{\max(|\text{CMI}_{\text{expanded}} - \text{CMI}_{\text{base}}|, |\text{CMI}_{\text{shrunk}} - \text{CMI}_{\text{base}}|)}{\max(\text{CMI}_{\text{base}}, \epsilon)}$$
+$\text{relative{\_}sensitivity} = \frac{\max(|\text{CMI}_\text{expanded} - \text{CMI}_\text{base}|, |\text{CMI}_\text{shrunk} - \text{CMI}_\text{base}|)}{\max(\text{CMI}_\text{base}, \epsilon)}$
 
 A run is considered **robust** if:
 - Relative sensitivity is low (small percentage change), or
