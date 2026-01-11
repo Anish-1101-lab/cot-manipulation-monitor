@@ -2,7 +2,7 @@
 
 A monitoring toolkit for large language models that (1) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (2) causally probes whether answers actually **depend** on those CoT activations or merely bypass them.
 
-Developed as part of the Apart Research AI Manipulation Hackathon and described in the paper *Chain-of-Thought Manipulation Monitor: Detection of Deceptive Reasoning in LLMs*.
+Developed as part of the Apart Research AI Manipulation Hackathon and described in the paper *Chain-of-Thought Manipulation Monitor: Detection of Deceptive Reasoning in LLMs* ([PDF](./Apart_Submission_Final.pdf)).
 
 ---
 
@@ -137,6 +137,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
