@@ -30,9 +30,8 @@ This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor.
 
 **Log-probability under prompt** $x$ :
 
-```math
-\log P(y \mid x) = \sum_{t=1}^{T} \log p(y_t \mid x, y_{<t})
-```
+<img width="589" height="59" alt="image" src="https://github.com/user-attachments/assets/2ec697a9-9bdc-4687-bad2-a07b746ed40f" />
+
 
 ---
 
@@ -40,7 +39,7 @@ This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor.
 
 The baseline log-probability is computed using the prompt with CoT:
 
-$$\text{baseline\_logp} = \log P(y \mid x_c)$$
+$$\text{baseline logp} = \log P(y \mid x_c)$$
 
 ---
 
@@ -100,7 +99,7 @@ $$\text{Validity} = \frac{\max(0, \text{CMI} - \text{Placebo CMI})}{\max(\text{C
 
 We compute CMI after randomly keeping different fractions of CoT positions (80%, 60%, and 40%):
 
-$$\text{Density\_Curve} = \{(0.8, \text{CMI}_{0.8}), (0.6, \text{CMI}_{0.6}), (0.4, \text{CMI}_{0.4})\}$$
+$$\text{Density Curve} = \{(0.8, \text{CMI}_{0.8}), (0.6, \text{CMI}_{0.6}), (0.4, \text{CMI}_{0.4})\}$$
 
 This tests whether the influence is **sparse** (concentrated in few tokens) or **distributed** across many tokens.
 
@@ -120,7 +119,7 @@ $$\text{Density} = 1 - \min\left(1, \frac{\text{CMI}_{0.4}}{\max(\text{CMI}, \ep
 
 To test whether the **order** of CoT reasoning matters, we shuffle which CoT hidden states are mapped to which CoT positions, recompute CMI, and define:
 
-$$\text{Sequentiality} = \frac{\max(0, \text{CMI} - \text{Shuffled\_CMI})}{\max(\text{CMI}, \epsilon)}$$
+$$\text{Sequentiality} = \frac{\max(0, \text{CMI} - \text{Shuffled CMI})}{\max(\text{CMI}, \epsilon)}$$
 
 **High sequentiality** means the order of CoT tokens matters for the answer.
 
@@ -148,7 +147,7 @@ To test the robustness of CMI measurements, we expand and shrink the CoT window 
 
 ### Relative Sensitivity
 
-$$\text{relative\_sensitivity} = \frac{\max(|\text{CMI}_{\text{expanded}} - \text{CMI}_{\text{base}}|, |\text{CMI}_{\text{shrunk}} - \text{CMI}_{\text{base}}|)}{\max(\text{CMI}_{\text{base}}, \epsilon)}$$
+$$\text{relative sensitivity} = \frac{\max(|\text{CMI}_{\text{expanded}} - \text{CMI}_{\text{base}}|, |\text{CMI}_{\text{shrunk}} - \text{CMI}_{\text{base}}|)}{\max(\text{CMI}_{\text{base}}, \epsilon)}$$
 
 A run is considered **robust** if:
 - Relative sensitivity is low (small percentage change), or
