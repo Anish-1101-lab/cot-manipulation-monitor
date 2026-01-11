@@ -124,7 +124,7 @@ Results are written under `data/` and `figures/`, matching the analyses in the p
 If you use this repository, please cite:
 
 ```
-Anish Sathyanarayanan*, Aditya Nagarsekar*, Aarush Rathore*.
+Anish Sathyanarayanan, Aditya Nagarsekar, Aarush Rathore.
 Chain-of-Thought Manipulation Monitor: Detection of Deceptive Reasoning in LLMs.
 Apart Research Hackathon Submission, 2026.
 ```
@@ -137,6 +137,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
