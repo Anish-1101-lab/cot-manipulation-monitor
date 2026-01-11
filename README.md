@@ -63,8 +63,8 @@ cot-manipulation-monitor/
 │
 ├── app.py                       # Streamlit dashboard (behavioural monitor)
 ├── run_monitoring_eval.py       # eval: normal vs audit-aware behavioural runs
-├── run_monitoring_eval_all_metrics.py
-│                                # eval: behavioural + causal metrics
+├── run_monitoring_eval_all_metrics.py # eval: behavioural + causal metrics
+│                                
 ├── analyse_metrics.py           # aggregate causal metrics, tables
 ├── analyse_metrics_fig.py       # figure generation for causal metrics
 │
@@ -137,6 +137,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
