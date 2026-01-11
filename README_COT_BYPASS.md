@@ -80,7 +80,7 @@ $$\text{Bypass} = 1 - \text{CMI}$$
 
 To validate that CMI measures genuine CoT dependence rather than artifacts, we replace CoT hidden states with **random noise** instead of no-CoT states and compute CMI.
 
-The resulting value is **Placebo_CMI**.
+The resulting value is **Placebo\_CMI**.
 
 ---
 
