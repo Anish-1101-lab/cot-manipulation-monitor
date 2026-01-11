@@ -35,8 +35,8 @@ Developed as part of the Apart Research AI Manipulation Hackathon and described 
   - Input: user prompt + mode + Groq model.
   - Output: risk band (green/yellow/red), per-pattern bar chart, semantic & structural scores, CoT, and answer.
 
-- **Causal CoT-bypass monitor** (`48
-- `)
+- **Causal CoT-bypass monitor** 
+
   - Source-patching on CoT token positions vs non-CoT controls.
   - Reports CoT-Mediated Influence (CMI), bypass, placebo CMI, validity, density, sequentiality, and boundary robustness.
 
@@ -140,6 +140,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 For questions or feedback, please contact the authors or open an issue on GitHub.
+
 
 
 
