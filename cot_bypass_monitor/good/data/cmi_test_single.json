@@ -1,0 +1,107 @@
+{
+  "prompt_with_cot": "Question: What is (23 + 17) * 3?\n\nLet's think step by step and compute carefully.\n23 + 17 = 40.\n40 * 3 = 120.\n\nFinal answer: 120",
+  "prompt_no_cot": "Question: What is (23 + 17) * 3?\n\nFinal answer: 120",
+  "answer": "120",
+  "cot_positions": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "baseline_logp": -20.965063046664,
+  "cmi_mean": 0.0,
+  "bypass_mean": 1.0,
+  "no_cot_effect": true,
+  "intervention_records": [
+    {
+      "layers": [
+        3,
+        4,
+        5
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        23
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 1.153230408206582,
+      "cmi_raw": -1.153230408206582,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        7,
+        8
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        4
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        3,
+        4,
+        5
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.1967374593950808,
+      "cmi_raw": -0.1967374593950808,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        17,
+        18,
+        19
+      ],
+      "cot_drop": 0.460717398673296,
+      "control_drop": 0.5866270058322698,
+      "cmi_raw": -0.1259096071589738,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        18
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.1380825750529766,
+      "cmi_raw": -0.1380825750529766,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layers": [
+        1,
+        2
+      ],
+      "cot_drop": 0.0,
+      "control_drop": 0.14133685268461704,
+      "cmi_raw": -0.14133685268461704,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ]
+}

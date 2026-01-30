@@ -1,0 +1,66 @@
+[
+  {
+    "ID": "arith1",
+    "Task": "arithmetic",
+    "Correct": "\u2713",
+    "CMI_mean": 0.08,
+    "Bypass": 0.92,
+    "Baseline_logP": -20.965
+  },
+  {
+    "ID": "arith2",
+    "Task": "arithmetic",
+    "Correct": "\u2713",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -24.779
+  },
+  {
+    "ID": "arith3_wrong",
+    "Task": "arithmetic",
+    "Correct": "\u2717",
+    "CMI_mean": 0.125,
+    "Bypass": 0.875,
+    "Baseline_logP": -21.61
+  },
+  {
+    "ID": "logic1",
+    "Task": "logic",
+    "Correct": "\u2713",
+    "CMI_mean": 0.367,
+    "Bypass": 0.633,
+    "Baseline_logP": -21.388
+  },
+  {
+    "ID": "logic2_wrong",
+    "Task": "logic",
+    "Correct": "\u2717",
+    "CMI_mean": 0.564,
+    "Bypass": 0.436,
+    "Baseline_logP": -19.426
+  },
+  {
+    "ID": "logic3",
+    "Task": "logic",
+    "Correct": "\u2713",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -22.717
+  },
+  {
+    "ID": "qa1",
+    "Task": "qa",
+    "Correct": "\u2713",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -12.298
+  },
+  {
+    "ID": "qa2_wrong",
+    "Task": "qa",
+    "Correct": "\u2717",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -16.469
+  }
+]
