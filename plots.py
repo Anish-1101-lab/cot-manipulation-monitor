@@ -4,9 +4,8 @@ import pandas as pd
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
-# ==========================================
-# 1. FULL DATASET
-# ==========================================
+#data from the experiments ran on cmi
+#code for experiments in test_cmi.py
 data = [
   {
     "id": "arith1", "task_type": "arithmetic", "correct": 1, "cmi_mean": 0.0796, "bypass_mean": 0.9204, "baseline_logp": -20.965,
@@ -116,82 +115,6 @@ data = [
 
 sns.set_theme(style="whitegrid", context="paper")
 
-# ==========================================
-# PART A: ORIGINAL PAPER EQUIVALENTS
-# ==========================================
-
-def plot_original_figure2_bars(data):
-    df = pd.DataFrame(data)
-    fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-
-    sns.barplot(data=df, x='id', y='cmi_mean', ax=axes[0], palette="mako", hue='id', legend=False)
-    axes[0].set_title("CoT Mediated Influence (CMI) by Sample")
-    axes[0].set_xticklabels(axes[0].get_xticklabels(), rotation=45, ha='right')
-    axes[0].set_ylabel("Mean CMI Score")
-    axes[0].set_ylim(0, 1.0)
-
-    sns.barplot(data=df, x='id', y='bypass_mean', ax=axes[1], palette="rocket_r", hue='id', legend=False)
-    axes[1].set_title("Bypass Score (1 - CMI)")
-    axes[1].set_xticklabels(axes[1].get_xticklabels(), rotation=45, ha='right')
-    axes[1].set_ylabel("Bypass Score")
-    axes[1].set_ylim(0, 1.0)
-
-    plt.tight_layout()
-    plt.savefig('fig2_original_cmi_bypass.png', dpi=300)
-    print("Generated: fig2_original_cmi_bypass.png")
-    plt.show()
-
-def plot_original_3d_scatter(data):
-    df = pd.DataFrame(data)
-    fig = plt.figure(figsize=(10, 8))
-    ax = fig.add_subplot(111, projection='3d')
-
-    x = df['cmi_mean']
-    y = df['bypass_mean']
-    z = df['baseline_logp']
-    
-    task_types = df['task_type'].unique()
-    colors = ['r', 'g', 'b', 'orange']
-    
-    for i, task in enumerate(task_types):
-        subset = df[df['task_type'] == task]
-        ax.scatter(subset['cmi_mean'], subset['bypass_mean'], subset['baseline_logp'], 
-                   c=colors[i % len(colors)], label=task, s=100, edgecolors='w')
-
-    ax.set_xlabel('CMI Score')
-    ax.set_ylabel('Bypass Score')
-    ax.set_zlabel('Baseline LogP')
-    ax.set_title('3D Relationship: CMI vs Bypass vs Confidence')
-    ax.legend()
-    plt.savefig('fig2_original_3d_scatter.png', dpi=300)
-    print("Generated: fig2_original_3d_scatter.png")
-    plt.show()
-
-# ==========================================
-# PART B: PREVIOUSLY APPROVED PLOTS
-# ==========================================
-
-def plot_reasoning_vs_hallucination(data):
-    df = pd.DataFrame(data)
-    df['Status'] = df['correct'].map({1: 'Correct', 0: 'Incorrect'})
-    plt.figure(figsize=(10, 7))
-    sns.scatterplot(data=df, x='cmi_mean', y='baseline_logp', hue='Status', style='task_type',
-                    palette={'Correct': 'green', 'Incorrect': 'red'}, s=250, alpha=0.85)
-    
-    # Annotate with offset
-    for i, row in df.iterrows():
-        plt.text(row['cmi_mean']+0.015, row['baseline_logp']+0.2, row['id'], fontsize=9, weight='bold')
-        
-    plt.axvline(x=0.05, color='gray', linestyle='--', alpha=0.5)
-    plt.text(0.01, -25, "Bypassed / Hallucination", rotation=90, verticalalignment='bottom', color='gray')
-    plt.text(0.06, -25, "Mediated Reasoning", rotation=90, verticalalignment='bottom', color='gray')
-    plt.title("Reasoning vs. Hallucination: CMI vs Confidence")
-    plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left')
-    plt.tight_layout()
-    plt.savefig('new_plot_reasoning_vs_hallucination.png', dpi=300)
-    print("Generated: new_plot_reasoning_vs_hallucination.png")
-    plt.show()
-
 def plot_layer_heatmap(data):
     num_layers = 24
     heatmap_data = []
@@ -215,118 +138,5 @@ def plot_layer_heatmap(data):
     print("Generated: new_plot_layer_heatmap.png")
     plt.show()
 
-def plot_control_validity(data):
-    plot_points = []
-    for item in data:
-        for rec in item.get('records', []):
-            plot_points.append({'id': item['id'], 'cot_drop': rec['cot_drop'], 
-                                'control_drop': rec['control_drop'], 'type': item['task_type']})
-    df = pd.DataFrame(plot_points)
-    plt.figure(figsize=(8, 8))
-    limit = max(df['cot_drop'].max(), df['control_drop'].max()) * 1.05
-    plt.plot([0, limit], [0, limit], ls="--", c=".3", label="y=x (Noise Floor)")
-    sns.scatterplot(data=df, x='control_drop', y='cot_drop', hue='type', style='type', s=120, alpha=0.7)
-    
-    # Annotate interesting points
-    for i, row in df.iterrows():
-        if row['control_drop'] > 2.0 or (row['cot_drop'] > 0.5 and row['control_drop'] < 0.2):
-             plt.text(row['control_drop'], row['cot_drop'], row['id'], fontsize=7)
-
-    plt.title("Validity Check: CoT Drop vs. Control Drop")
-    plt.tight_layout()
-    plt.savefig('new_plot_control_validity.png', dpi=300)
-    print("Generated: new_plot_control_validity.png")
-    plt.show()
-
-# ==========================================
-# PART C: NEW INSIGHT PLOTS
-# ==========================================
-
-def plot_reasoning_sparsity(data):
-    """
-    Shows Mean CMI vs Max CMI to illustrate reasoning sparsity.
-    Samples near diagonal use CoT consistently.
-    Samples high/left use CoT sparsely (localized 'flash of insight').
-    """
-    points = []
-    for item in data:
-        # Calculate Max CMI for this sample
-        cmi_scores = [r.get('cmi_score', 0) for r in item.get('records', [])]
-        max_cmi = max(cmi_scores) if cmi_scores else 0
-        points.append({
-            'id': item['id'],
-            'mean_cmi': item['cmi_mean'],
-            'max_cmi': max_cmi,
-            'task_type': item['task_type']
-        })
-    
-    df = pd.DataFrame(points)
-    plt.figure(figsize=(8, 8))
-    
-    # y=x line
-    plt.plot([0, 1], [0, 1], ls="--", c=".3", label="Consistent Reasoning (Mean ≈ Max)")
-    
-    sns.scatterplot(data=df, x='mean_cmi', y='max_cmi', hue='task_type', style='task_type', s=150)
-    
-    for i, row in df.iterrows():
-        plt.text(row['mean_cmi']+0.02, row['max_cmi'], row['id'], fontsize=9)
-        
-    plt.title("Reasoning Sparsity: Mean vs. Peak Influence")
-    plt.xlabel("Mean CMI (Average Influence)")
-    plt.ylabel("Max CMI (Peak Influence)")
-    plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left')
-    plt.tight_layout()
-    plt.savefig('new_plot_reasoning_sparsity.png', dpi=300)
-    print("Generated: new_plot_reasoning_sparsity.png")
-    plt.show()
-
-def plot_cmi_distribution(data):
-    """
-    Box/Swarm plot showing the distribution of CMI scores *within* each sample.
-    Reveals consistency variance (e.g., arith1 has high variance, qa1 has zero variance).
-    """
-    rows = []
-    for item in data:
-        for rec in item.get('records', []):
-            rows.append({
-                'id': item['id'],
-                'cmi_score': rec.get('cmi_score', 0),
-                'task_type': item['task_type']
-            })
-    df = pd.DataFrame(rows)
-    
-    plt.figure(figsize=(10, 6))
-    
-    # Box plot for distribution range
-    sns.boxplot(data=df, x='id', y='cmi_score', palette="pastel", showfliers=False)
-    # Strip plot to show actual data points
-    sns.stripplot(data=df, x='id', y='cmi_score', color='black', alpha=0.6, jitter=True)
-    
-    plt.title("Intra-Sample Reasoning Consistency (CMI Distribution)")
-    plt.ylabel("CMI Score per Layer Span")
-    plt.xlabel("Sample ID")
-    plt.xticks(rotation=45, ha='right')
-    
-    plt.tight_layout()
-    plt.savefig('new_plot_cmi_distribution.png', dpi=300)
-    print("Generated: new_plot_cmi_distribution.png")
-    plt.show()
-
-# ==========================================
-# MAIN EXECUTION
-# ==========================================
 if __name__ == "__main__":
-    print(">>> Generating Original Paper Equivalents...")
-    plot_original_figure2_bars(data)
-    plot_original_3d_scatter(data)
-    
-    print("\n>>> Generating Validated Diagnostic Plots...")
-    plot_reasoning_vs_hallucination(data)
     plot_layer_heatmap(data)
-    plot_control_validity(data)
-    
-    print("\n>>> Generating New Insight Plots (Sparsity & Consistency)...")
-    plot_reasoning_sparsity(data)
-    plot_cmi_distribution(data)
-    
-    print("\n>>> All plots generated successfully.")
