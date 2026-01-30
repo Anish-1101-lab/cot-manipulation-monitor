@@ -4,6 +4,7 @@ from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from matplotlib.ticker import ScalarFormatter
 
 
 INPUT_PATH = Path("data/monitor_results_all_metrics.jsonl")
@@ -62,14 +63,20 @@ def main():
         x=summary.index,
         y="Mean",
         data=summary.reset_index(),
-        yerr=summary["Std"].values,
-        capsize=0.2,
         color="#4C72B0",
     )
     ax.axhline(0, color="black", linewidth=1)
-    ax.set_ylabel("Mean Δ (audit_aware − normal)")
-    ax.set_xlabel("Metric")
-    plt.xticks(rotation=30, ha="right")
+    # Use symmetric log scale to handle small/negative deltas while showing spread.
+    ax.set_yscale("symlog", linthresh=0.05, linscale=1.0, base=10)
+    ax.set_ylim(-0.05, 10)
+    # Clean tick labels on symlog to avoid scientific clutter.
+    ax.yaxis.set_major_formatter(ScalarFormatter())
+    ax.yaxis.set_minor_formatter(ScalarFormatter())
+    ax.ticklabel_format(axis="y", style="plain")
+    ax.set_ylabel("Mean Δ (audit_aware − normal)", fontsize=10)
+    ax.set_xlabel("Metric", fontsize=10)
+    plt.xticks(rotation=35, ha="right", fontsize=9)
+    plt.yticks(fontsize=9)
     plt.tight_layout()
     plt.savefig(OUT_DIR / "mean_deltas_bar.png", dpi=300)
     plt.close()
