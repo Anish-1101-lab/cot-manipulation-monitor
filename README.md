@@ -1,5 +1,4 @@
-# COTMAN
-# Chain-of-Thought Manipulation ANalysis of Deceptive & Bypassed Reasoning
+# When Chains of Thought Don't Matter: Causal Bypass in Large Language Models
 
 A monitoring toolkit for large language models that (i) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (ii) **causally probes** whether model answers actually depend on those CoT activations or merely bypass them.
 
@@ -206,4 +205,5 @@ Use `data/cmi_summary_table.json` for the instance-level CMI table and `new_plot
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
