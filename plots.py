@@ -6,9 +6,9 @@ import json
 
 sns.set_theme(style="whitegrid", context="paper")
 
-def plot_layer_heatmap(data, sample_indices=None):
+def plot_layer_heatmap(data, sample_indices=None, y_labels=None):
     heatmap_data = []
-    y_labels = []
+    label_list = []
     num_layers = 0
     for item in data:
         for rec in item:
@@ -26,12 +26,16 @@ def plot_layer_heatmap(data, sample_indices=None):
             if 0 <= layer < num_layers:
                 row[layer] = cmi
         heatmap_data.append(row)
-        y_labels.append(f"ex_{idx+1:03d}")
+        if y_labels is not None and len(y_labels) > idx and y_labels[idx]:
+            label = y_labels[idx]
+        else:
+            label = f"ex_{idx+1:03d}"
+        label_list.append(label)
 
     plt.figure(figsize=(12, max(6, len(heatmap_data) * 0.15)))
     sns.heatmap(
         np.array(heatmap_data),
-        yticklabels=y_labels,
+        yticklabels=label_list,
         xticklabels=2,
         cmap="magma",
         linewidths=0.3,
@@ -120,13 +124,13 @@ if __name__ == "__main__":
     per_layer_all = json.loads(layer_path.read_text())
 
     ordered = []
+    labels = []
     for item in suite:
         rows = per_layer_all.get(item["id"], [])
         ordered.append(rows)
+        labels.append(item.get("id", ""))
 
-    total = len(ordered)
-    max_considered = min(total, 100)
-    sample_indices = list(range(4, max_considered, 5))[:20]
-    plot_layer_heatmap(ordered, sample_indices=sample_indices)
+    sample_indices = list(range(min(len(ordered), 20)))
+    plot_layer_heatmap(ordered, sample_indices=sample_indices, y_labels=labels)
     plot_layer_gate_signal(ordered)
     plot_layer_drop_means(ordered)

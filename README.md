@@ -1,25 +1,33 @@
-# COTMAN: Chain-of-Thought Manipulation ANalysis of Deceptive & Bypassed Reasoning
+# COTMAN
+# Chain-of-Thought Manipulation ANalysis of Deceptive & Bypassed Reasoning
 
 A monitoring toolkit for large language models that (i) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (ii) **causally probes** whether model answers actually depend on those CoT activations or merely bypass them.
 
-The experiments and figures in the paper can be reproduced using the behavioural monitor under `cot_monitor/` and the causal CoT‑bypass monitor under `cot_bypass_monitor/`.
+The experiments and figures can be reproduced using the behavioural monitor under `cot_monitor/` and the causal CoT‑bypass monitor under `cot_bypass_monitor/`.
 
 ---
 
 ## Repository Structure
 
 ```text
-cot-manipulation-monitor/
+repo/
 ├── cot_bypass_monitor/                # causal CoT-bypass (CMI / bypass) code
 │   └── good/
-│       ├── data_cmi/                  # CMI / bypass numeric dumps used in the paper
-│       │   ├── cmi_suite.json              # per-instance causal records
-│       │   ├── cmi_summary_table.json      # table-ready CMI summary (Table 1)
-│       │   ├── cmi_layers_*.json           # layer-span interventions per instance
-│       │   └── cmi_test_single.json        # simple single-prompt example
-│       ├── cot_bypass_monitor.py           # core CMI / bypass implementation
-│       ├── cot_bypass_results.json(l)      # optional raw runs
-│       └── test_cmi.py                     # small CMI suite (arith / logic / QA)
+│       ├── data/                      # datasets + causal outputs (local runs)
+│       │   ├── cmi_suite.json               # per-instance causal records
+│       │   ├── cmi_summary_table.json       # table-ready CMI summary
+│       │   ├── cmi_layers_example.json      # example layerwise record
+│       │   ├── cmi_layers_all.json          # span-level records (all IDs)
+│       │   ├── cmi_layers_per_layer_all.json# per-layer records (all IDs)
+│       │   ├── cmi_test_single.json         # single-prompt example
+│       │   ├── strategy_qa.json             # StrategyQA dataset (JSON)
+│       │   └── TruthfulQA.csv               # TruthfulQA dataset (CSV)
+│       ├── data/qwen/                 # model-specific outputs (optional)
+│       ├── cot_bypass_monitor.py            # core CMI / bypass implementation
+│       ├── cot_bypass_results.json(l)       # optional raw runs
+│       ├── test_cmi.py                      # causal suite (arith / logic / QA)
+│       ├── test_cmi_layerwise_strategyqa.py # layerwise CMI on StrategyQA
+│       └── test_truthqa.py                  # TruthfulQA evaluation
 │
 ├── cot_monitor/                     # behavioural CoT manipulation monitor
 │   ├── __init__.py
@@ -33,12 +41,9 @@ cot-manipulation-monitor/
 │       ├── monitor_results.jsonl            # quick eval results (subset of metrics)
 │       └── monitor_results_all_metrics.jsonl# full metric dumps
 │
-├── figures/                         # plots used in the paper
-│   ├── mean_deltas_bar.png              # behavioural: mean risk deltas (Fig. 1a)
-│   ├── risk_delta_hist.png              # behavioural: risk-delta distribution (Fig. 1b)
-│   ├── risk_scatter.png                 # behavioural: per-metric scatter (optional)
-│   ├── single_example_deltas.png        # behavioural: example delta breakdown
-│   └── new_plot_layer_heatmap.png       # causal: layer-wise CMI heatmap (Appendix)
+├── figures_and_data/               # generated figures + export bundles
+│   ├── behavioural_module/
+│   └── causal_module/
 │
 ├── venv/                            # local virtual environment (not required by users)
 │
@@ -57,9 +62,6 @@ cot-manipulation-monitor/
 We recommend using a virtual environment.
 
 ```bash
-git clone https://github.com/Anish-1101-lab/cot-manipulation-monitor.git
-cd cot-manipulation-monitor
-
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 
@@ -89,7 +91,7 @@ The app lets you:
 
 - enter a user prompt,
 - choose normal or audit_aware mode,
-- select a Groq model (e.g. llama-3.1-8b-instant),
+- select a Groq model,
 - inspect the CoT + answer, pattern hits, and the 0–100 manipulation risk score.
 
 ### Quick behavioural evaluation (run_monitoring_eval.py)
@@ -134,19 +136,14 @@ Use this when you need the full metric dump for analysis or ablations.
 
 ### Behavioural figures
 
-After running one of the eval scripts, regenerate the main behavioural figures used in the paper:
+After running one of the eval scripts, regenerate the main behavioural figures:
 
 ```bash
 source venv/bin/activate
 python analyse_metrics_figures.py
 ```
 
-This reads from `cot_monitor/data/metric_deltas_summary.csv` and related files and produces:
-
-- `figures/mean_deltas_bar.png`
-- `figures/risk_delta_hist.png`
-- `figures/risk_scatter.png`
-- `figures/single_example_deltas.png`
+This reads from `cot_monitor/data/metric_deltas_summary.csv` and related files and produces figures under `figures_and_data/behavioural_module/`.
 
 These correspond to the plots described in the "Behavioural Monitor Results" section.
 
@@ -167,17 +164,13 @@ source ../../venv/bin/activate        # adjust path if needed
 python test_cmi.py
 ```
 
-This produces:
-
-- `data_cmi/cmi_suite.json` – full per-instance records, including per-span interventions,
-- `data_cmi/cmi_summary_table.json` – compact summary (ID, task, correctness, CMI mean, bypass, baseline log P),
-- `data_cmi/cmi_layers_<ID>.json` – layer-span interventions (cot_drop, control_drop, CMI, bypass) per instance.
+This produces per-run JSONs under `cot_bypass_monitor/good/data/` (plus any custom output directories your scripts target). Some runs may optionally write to `cot_bypass_monitor/good/data/qwen/`.
 
 The rows in `cmi_summary_table.json` directly correspond to the instance-level CMI table in the paper.
 
 ### Causal plots and layer-wise heatmap
 
-The `plots.py` script generates causal figures for the paper, including the layer-wise CMI heatmap.
+The `plots.py` script generates causal figures, including the layer-wise CMI heatmap.
 
 ```bash
 cd cot_bypass_monitor/good
@@ -186,33 +179,28 @@ source ../../venv/bin/activate
 python plots.py
 ```
 
-This uses the data structure in `plots.py` (mirroring `data_cmi/cmi_suite.json`) and writes causal plots into `figures/`, including:
+This uses the data structure in `plots.py` and writes causal plots into the repo root by default (e.g., `new_plot_layer_heatmap.png`). You can relocate outputs into `figures_and_data/causal_module/` as needed.
 
-- CMI / bypass bar plots and diagnostics (optional, for analysis),
-- `figures/new_plot_layer_heatmap.png` – a layer-wise CMI heatmap ("Mechanistic Localization: Heatmap") summarizing, for each instance, the maximum span-level CMI at each layer index.
+## Reproducing Results
 
-Include `new_plot_layer_heatmap.png` in the LaTeX paper as the appendix figure illustrating where in depth CoT-mediated influence is concentrated.
-
-## Reproducing Paper Results
-
-### Behavioural (Section 3.1):
+### Behavioural
 
 ```bash
 python run_monitoring_eval.py            # or run_monitoring_eval_all_metrics.py
 python analyse_metrics_figures.py
 ```
 
-Figures are written under `figures/` and match the behavioural plots in the paper.
+Figures are written under `figures_and_data/behavioural_module/`.
 
-### Causal (Section 3.2 and Appendix):
+### Causal
 
 ```bash
 cd cot_bypass_monitor/good
-python test_cmi.py        # writes CMI tables to data_cmi/
-python plots.py           # writes causal figures to figures/
+python test_cmi.py        # writes CMI tables to data/
+python plots.py           # writes causal figures (e.g., new_plot_layer_heatmap.png)
 ```
 
-Use `data_cmi/cmi_summary_table.json` for the instance-level CMI table and `data_cmi/cmi_layers_*.json` plus `figures/new_plot_layer_heatmap.png` for the layer-span summary.
+Use `data/cmi_summary_table.json` for the instance-level CMI table and `new_plot_layer_heatmap.png` for the layerwise summary.
 
 
 ## License

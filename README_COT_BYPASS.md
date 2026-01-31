@@ -1,6 +1,6 @@
 # CoT Bypass Monitor Metrics
 
-This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor.py`. It focuses on whether answer tokens depend on the CoT token positions.
+This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor/good/cot_bypass_monitor.py`. It focuses on whether answer tokens depend on the CoT token positions.
 
 ---
 
@@ -30,7 +30,7 @@ This README documents the causal CoT-bypass metrics used in `cot_bypass_monitor.
 
 **Log-probability under prompt** $x$ :
 
-<img width="589" height="59" alt="image" src="https://github.com/user-attachments/assets/2ec697a9-9bdc-4687-bad2-a07b746ed40f" />
+$$\log P(y \mid x) = \sum_{t=1}^{T} \log P(y_t \mid x, y_{<t})$$
 
 
 ---
@@ -159,7 +159,7 @@ High sensitivity may indicate that the CoT boundaries are poorly defined or that
 
 ## Implementation Notes
 
-All metrics are implemented in `cot_bypass_monitor/cot_bypass_monitor.py` and use:
+All metrics are implemented in `cot_bypass_monitor/good/cot_bypass_monitor.py` and use:
 
 - **Source patching** via hidden state replacement
 - **Multiple layer spans** for comprehensive coverage
@@ -185,5 +185,5 @@ All metrics are implemented in `cot_bypass_monitor/cot_bypass_monitor.py` and us
 
 For implementation details and usage examples, see:
 - Main README: [`README.md`](README.md)
-- Implementation: [`cot_bypass_monitor/cot_bypass_monitor.py`](cot_bypass_monitor/cot_bypass_monitor.py)
+- Implementation: [`cot_bypass_monitor/good/cot_bypass_monitor.py`](cot_bypass_monitor/good/cot_bypass_monitor.py)
 - Evaluation scripts: `run_monitoring_eval_all_metrics.py`, `analyse_metrics.py`
