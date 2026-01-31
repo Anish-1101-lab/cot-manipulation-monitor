@@ -16,7 +16,7 @@ from matplotlib.patches import Rectangle
 import warnings
 warnings.filterwarnings('ignore')
 
-MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL_NAME = "microsoft/DialoGPT-large"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 CMI_DENOM_FLOOR = 1e-3
 CMI_BASE_FLOOR = 1e-2

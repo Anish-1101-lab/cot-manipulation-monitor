@@ -1,0 +1,802 @@
+[
+  {
+    "ID": "b8677742616fef051f00",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.036,
+    "Bypass": 0.964,
+    "Baseline_logP": -19.321
+  },
+  {
+    "ID": "4668264df84fb7c25b39",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.039,
+    "Bypass": 0.961,
+    "Baseline_logP": -20.486
+  },
+  {
+    "ID": "41450dbd623437269f8f",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -21.022
+  },
+  {
+    "ID": "7419826e4373eb1e83ff",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -18.827
+  },
+  {
+    "ID": "1b29d402c3e17cb3b435",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.017,
+    "Bypass": 0.983,
+    "Baseline_logP": -21.619
+  },
+  {
+    "ID": "c2d2b9ff5a1e682c88dc",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.034,
+    "Bypass": 0.966,
+    "Baseline_logP": -17.691
+  },
+  {
+    "ID": "265dd54c248f8b048851",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.014,
+    "Bypass": 0.986,
+    "Baseline_logP": -20.179
+  },
+  {
+    "ID": "29bf9aa61ed4124cd84c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.023,
+    "Bypass": 0.977,
+    "Baseline_logP": -17.838
+  },
+  {
+    "ID": "f231532fe17fd971d1e6",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.033,
+    "Bypass": 0.967,
+    "Baseline_logP": -17.69
+  },
+  {
+    "ID": "decb9886ca17f7af209d",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.033,
+    "Bypass": 0.967,
+    "Baseline_logP": -19.689
+  },
+  {
+    "ID": "622c71f22ddb683c15a8",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.025,
+    "Bypass": 0.975,
+    "Baseline_logP": -19.682
+  },
+  {
+    "ID": "b77d2efee37741e44c32",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.014,
+    "Bypass": 0.986,
+    "Baseline_logP": -19.988
+  },
+  {
+    "ID": "d697f6246a7d06e195ee",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -19.809
+  },
+  {
+    "ID": "98a30c58fdff7676076c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.017,
+    "Bypass": 0.983,
+    "Baseline_logP": -21.226
+  },
+  {
+    "ID": "a2a388a19b87a34d902b",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -23.23
+  },
+  {
+    "ID": "df84924c94e9e929ef10",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.031,
+    "Bypass": 0.969,
+    "Baseline_logP": -21.118
+  },
+  {
+    "ID": "ad9bf53d84f83ebc9822",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -17.674
+  },
+  {
+    "ID": "58fd5574f3447c8f590f",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.034,
+    "Bypass": 0.966,
+    "Baseline_logP": -19.334
+  },
+  {
+    "ID": "8e01fbec3b932a3252ef",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.038,
+    "Bypass": 0.962,
+    "Baseline_logP": -19.961
+  },
+  {
+    "ID": "d8649d55a6e1a22b92d9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.018,
+    "Bypass": 0.982,
+    "Baseline_logP": -21.074
+  },
+  {
+    "ID": "e9e78aa7b0c1ec3f9cf9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -17.864
+  },
+  {
+    "ID": "903178c36c89e5f55a20",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.032,
+    "Bypass": 0.968,
+    "Baseline_logP": -20.553
+  },
+  {
+    "ID": "86ead3f15417204affc2",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.034,
+    "Bypass": 0.966,
+    "Baseline_logP": -19.384
+  },
+  {
+    "ID": "3e023027bb296245506a",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -21.848
+  },
+  {
+    "ID": "e56fdbdf08cdc8694536",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.032,
+    "Bypass": 0.968,
+    "Baseline_logP": -18.584
+  },
+  {
+    "ID": "646d3503f3a3939e2e63",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -18.883
+  },
+  {
+    "ID": "a96d28e1221bfbcf50a9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -20.101
+  },
+  {
+    "ID": "c87e343f444912cc9680",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -18.436
+  },
+  {
+    "ID": "8716b85472632d6e200e",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -19.632
+  },
+  {
+    "ID": "8ab96f428e06984bf0c6",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.031,
+    "Bypass": 0.969,
+    "Baseline_logP": -19.355
+  },
+  {
+    "ID": "7870b1cef39a4f685911",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.039,
+    "Bypass": 0.961,
+    "Baseline_logP": -21.024
+  },
+  {
+    "ID": "1f0e2597327ddd338fc2",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -18.401
+  },
+  {
+    "ID": "50c3af76816a5c2f07d2",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -18.387
+  },
+  {
+    "ID": "3a7d825a0fcb4211742f",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.037,
+    "Bypass": 0.963,
+    "Baseline_logP": -20.874
+  },
+  {
+    "ID": "ed6d9f875c9787e1817c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -20.002
+  },
+  {
+    "ID": "93f0f18ac8c96a44b849",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -21.776
+  },
+  {
+    "ID": "9a87e2e0f53e5d8689f2",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.037,
+    "Bypass": 0.963,
+    "Baseline_logP": -19.417
+  },
+  {
+    "ID": "83717baab39233083d34",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -18.702
+  },
+  {
+    "ID": "d24514ae216c7a55f4f0",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.029,
+    "Bypass": 0.971,
+    "Baseline_logP": -20.183
+  },
+  {
+    "ID": "7f79c8faf724cc8f0e72",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -19.429
+  },
+  {
+    "ID": "427fe3968e32005479b9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -18.394
+  },
+  {
+    "ID": "27368c21e50b6af694ab",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -21.256
+  },
+  {
+    "ID": "88b682482647a80a080d",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.032,
+    "Bypass": 0.968,
+    "Baseline_logP": -19.565
+  },
+  {
+    "ID": "267609f49ccd3c0839c3",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.021,
+    "Bypass": 0.979,
+    "Baseline_logP": -19.251
+  },
+  {
+    "ID": "88016d1d8b284aa9113c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.027,
+    "Bypass": 0.973,
+    "Baseline_logP": -17.692
+  },
+  {
+    "ID": "5c969a7fccde48210ec8",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.033,
+    "Bypass": 0.967,
+    "Baseline_logP": -19.898
+  },
+  {
+    "ID": "30e2cf44640c4fe81d80",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.027,
+    "Bypass": 0.973,
+    "Baseline_logP": -18.53
+  },
+  {
+    "ID": "c2f573c79ceab25e8fcd",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.028,
+    "Bypass": 0.972,
+    "Baseline_logP": -17.232
+  },
+  {
+    "ID": "af531b69039676567cb9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.021,
+    "Bypass": 0.979,
+    "Baseline_logP": -19.554
+  },
+  {
+    "ID": "3d01af5db202bc7d33b9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.038,
+    "Bypass": 0.962,
+    "Baseline_logP": -21.453
+  },
+  {
+    "ID": "f318d0f8f873ce921ac9",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.021,
+    "Bypass": 0.979,
+    "Baseline_logP": -18.481
+  },
+  {
+    "ID": "e7327e171bd965f6a3cf",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.025,
+    "Bypass": 0.975,
+    "Baseline_logP": -17.271
+  },
+  {
+    "ID": "d07d517db865174dcee4",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.022,
+    "Bypass": 0.978,
+    "Baseline_logP": -19.725
+  },
+  {
+    "ID": "136496e0b5e8bed459da",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -18.816
+  },
+  {
+    "ID": "ca09aea1e9589ef40c61",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -17.685
+  },
+  {
+    "ID": "66b9bb0849ceff60cfde",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -20.342
+  },
+  {
+    "ID": "e51ea4cf89bc91a77f3c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.026,
+    "Bypass": 0.974,
+    "Baseline_logP": -19.882
+  },
+  {
+    "ID": "de62d38623fde2c2285a",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -19.132
+  },
+  {
+    "ID": "60c525b944e991fb9821",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -20.123
+  },
+  {
+    "ID": "0b3c9c9aea94adef6e3a",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.017,
+    "Bypass": 0.983,
+    "Baseline_logP": -20.072
+  },
+  {
+    "ID": "4a915ea5d025292cd7ec",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -19.179
+  },
+  {
+    "ID": "49f6cc28a8385f71d7ca",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.038,
+    "Bypass": 0.962,
+    "Baseline_logP": -20.907
+  },
+  {
+    "ID": "50d09b10f985b4763225",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -21.007
+  },
+  {
+    "ID": "b3b209d7fe1a38ad7844",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -19.687
+  },
+  {
+    "ID": "22b385fc4948e6ff5795",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.03,
+    "Bypass": 0.97,
+    "Baseline_logP": -18.914
+  },
+  {
+    "ID": "93eafc413d86df9c0755",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -21.498
+  },
+  {
+    "ID": "97d147b2e3e29fa85a71",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.027,
+    "Bypass": 0.973,
+    "Baseline_logP": -19.986
+  },
+  {
+    "ID": "cc233b6426cb4e8dffb6",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.039,
+    "Bypass": 0.961,
+    "Baseline_logP": -19.698
+  },
+  {
+    "ID": "9cfdec34fa9bd1ed9d3f",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.023,
+    "Bypass": 0.977,
+    "Baseline_logP": -22.451
+  },
+  {
+    "ID": "935002dcfa70239e715f",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.04,
+    "Bypass": 0.96,
+    "Baseline_logP": -19.979
+  },
+  {
+    "ID": "f07a6acf27e25dedbb8d",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.036,
+    "Bypass": 0.964,
+    "Baseline_logP": -21.854
+  },
+  {
+    "ID": "58e7eb38d889d4252123",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.038,
+    "Bypass": 0.962,
+    "Baseline_logP": -18.03
+  },
+  {
+    "ID": "a3416e6b8a34d389eb0c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -18.884
+  },
+  {
+    "ID": "fdeec181aeee06303113",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.031,
+    "Bypass": 0.969,
+    "Baseline_logP": -20.573
+  },
+  {
+    "ID": "ba691c1bb1c760b1edf8",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -21.905
+  },
+  {
+    "ID": "f3d045e08844bf0d4e53",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -18.324
+  },
+  {
+    "ID": "b5b110367bb88821d9d0",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.025,
+    "Bypass": 0.975,
+    "Baseline_logP": -21.34
+  },
+  {
+    "ID": "80ca095e38ab73b908ff",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.02,
+    "Bypass": 0.98,
+    "Baseline_logP": -20.17
+  },
+  {
+    "ID": "e0a9f1ef5fae44427b26",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -21.435
+  },
+  {
+    "ID": "7b84d2bc643ddc2085f0",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -19.294
+  },
+  {
+    "ID": "e0e842a78f59698d0cfd",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.0,
+    "Bypass": 1.0,
+    "Baseline_logP": -16.748
+  },
+  {
+    "ID": "e8b311139f387c983996",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.029,
+    "Bypass": 0.971,
+    "Baseline_logP": -23.066
+  },
+  {
+    "ID": "4e598d222fe1001cf4f8",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.04,
+    "Bypass": 0.96,
+    "Baseline_logP": -18.884
+  },
+  {
+    "ID": "db70d15b07a9f288ffdc",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.032,
+    "Bypass": 0.968,
+    "Baseline_logP": -18.952
+  },
+  {
+    "ID": "f240c88676b6ac6896ad",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.014,
+    "Bypass": 0.986,
+    "Baseline_logP": -18.182
+  },
+  {
+    "ID": "1f550df826ae448ff082",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.033,
+    "Bypass": 0.967,
+    "Baseline_logP": -18.007
+  },
+  {
+    "ID": "00f951d01196c2e77fe6",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.033,
+    "Bypass": 0.967,
+    "Baseline_logP": -19.299
+  },
+  {
+    "ID": "4810297f474b0e97ed78",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -18.66
+  },
+  {
+    "ID": "43e4aea70f7e53d1d807",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.014,
+    "Bypass": 0.986,
+    "Baseline_logP": -18.825
+  },
+  {
+    "ID": "a98c29881e1929a25eb4",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -18.561
+  },
+  {
+    "ID": "901156d5fcaf260eb4a7",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.02,
+    "Bypass": 0.98,
+    "Baseline_logP": -19.008
+  },
+  {
+    "ID": "998132ad8f805c90f31e",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -18.154
+  },
+  {
+    "ID": "b7c2bfdfc96be70f3f60",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.042,
+    "Bypass": 0.958,
+    "Baseline_logP": -17.686
+  },
+  {
+    "ID": "d9987847af1ab751c75a",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.04,
+    "Bypass": 0.96,
+    "Baseline_logP": -18.542
+  },
+  {
+    "ID": "a60e5f73700b47a5f34a",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.036,
+    "Bypass": 0.964,
+    "Baseline_logP": -19.232
+  },
+  {
+    "ID": "a7c566e2adbb58be2da8",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.035,
+    "Bypass": 0.965,
+    "Baseline_logP": -17.074
+  },
+  {
+    "ID": "3ac14678dd395d41639c",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.036,
+    "Bypass": 0.964,
+    "Baseline_logP": -21.173
+  },
+  {
+    "ID": "b3443bf3c312c9d144e4",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.03,
+    "Bypass": 0.97,
+    "Baseline_logP": -17.359
+  },
+  {
+    "ID": "3bba4ea27500361cb141",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.026,
+    "Bypass": 0.974,
+    "Baseline_logP": -19.8
+  },
+  {
+    "ID": "71d5af08c0cfb9565a54",
+    "Task": "strategyqa",
+    "Correct": "?",
+    "CMI_mean": 0.041,
+    "Bypass": 0.959,
+    "Baseline_logP": -19.63
+  }
+]
