@@ -1,6 +1,3 @@
-# COTMAN
-# Chain-of-Thought Manipulation ANalysis of Deceptive & Bypassed Reasoning
-
 A monitoring toolkit for large language models that (i) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (ii) **causally probes** whether model answers actually depend on those CoT activations or merely bypass them.
 
 The experiments and figures can be reproduced using the behavioural monitor under `cot_monitor/` and the causal CoT‑bypass monitor under `cot_bypass_monitor/`.
