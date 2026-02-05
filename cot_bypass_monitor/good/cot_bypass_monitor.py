@@ -1,6 +1,7 @@
+import os
 import torch
 import torch.nn.functional as F
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 import random
 import json
@@ -16,7 +17,7 @@ from matplotlib.patches import Rectangle
 import warnings
 warnings.filterwarnings('ignore')
 
-MODEL_NAME = "microsoft/DialoGPT-large"
+MODEL_NAME = os.environ.get("CBM_MODEL_NAME", "nvidia/Qwen3-8B-NVFP4")
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 CMI_DENOM_FLOOR = 1e-3
 CMI_BASE_FLOOR = 1e-2
@@ -33,7 +34,36 @@ def load_model_and_tokenizer():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME).to(DEVICE)
+    config = AutoConfig.from_pretrained(MODEL_NAME)
+    if getattr(config, "pad_token_id", None) is None:
+        config.pad_token_id = tokenizer.pad_token_id
+    quant_cfg = getattr(config, "quantization_config", None)
+    if quant_cfg is not None:
+        qtype = None
+        if isinstance(quant_cfg, dict):
+            qtype = (
+                quant_cfg.get("quant_method")
+                or quant_cfg.get("quantization_type")
+                or quant_cfg.get("quant_type")
+            )
+        else:
+            qtype = (
+                getattr(quant_cfg, "quant_method", None)
+                or getattr(quant_cfg, "quantization_type", None)
+                or getattr(quant_cfg, "quant_type", None)
+            )
+        if qtype == "modelopt":
+            raise RuntimeError(
+                "MODEL_NAME points to a modelopt-quantized checkpoint, which this "
+                "Transformers install cannot load. Set CBM_MODEL_NAME to a non-quantized "
+                "model (e.g. Qwen/Qwen2.5-0.5B-Instruct) or install modelopt support."
+            )
+        config.quantization_config = None
+
+    load_kwargs = {"config": config, "trust_remote_code": True}
+    if DEVICE == "cuda":
+        load_kwargs.update({"device_map": "auto", "torch_dtype": "auto", "low_cpu_mem_usage": True})
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, **load_kwargs).to(DEVICE)
     model.eval()
     return model, tokenizer
 

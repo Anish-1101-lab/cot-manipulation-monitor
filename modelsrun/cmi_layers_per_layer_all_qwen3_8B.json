@@ -1,0 +1,5802 @@
+{
+  "b8677742616fef051f00": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "4668264df84fb7c25b39": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0156,
+      "cmi_raw": -0.0156,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "41450dbd623437269f8f": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0625,
+      "cmi_raw": -0.0625,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "7419826e4373eb1e83ff": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "1b29d402c3e17cb3b435": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0312,
+      "cmi_raw": -0.0312,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "c2d2b9ff5a1e682c88dc": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0312,
+      "cmi_raw": -0.0312,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "265dd54c248f8b048851": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "29bf9aa61ed4124cd84c": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0469,
+      "cmi_raw": -0.0469,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0625,
+      "cmi_raw": -0.0625,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "f231532fe17fd971d1e6": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "decb9886ca17f7af209d": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.375,
+      "control_drop": 0.0,
+      "cmi_raw": 0.375,
+      "cmi_score": 1.0,
+      "bypass_score": 0.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "622c71f22ddb683c15a8": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0156,
+      "cmi_raw": -0.0156,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0156,
+      "cmi_raw": -0.0156,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.2344,
+      "cmi_raw": -0.2344,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "b77d2efee37741e44c32": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0938,
+      "cmi_raw": -0.0938,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.1562,
+      "cmi_raw": -0.1562,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0469,
+      "cmi_raw": -0.0469,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "d697f6246a7d06e195ee": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "98a30c58fdff7676076c": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "a2a388a19b87a34d902b": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.1562,
+      "cmi_raw": -0.1562,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0781,
+      "cmi_raw": -0.0781,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.4531,
+      "cmi_raw": -0.4531,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0625,
+      "cmi_raw": -0.0625,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "df84924c94e9e929ef10": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "ad9bf53d84f83ebc9822": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0156,
+      "cmi_raw": -0.0156,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "58fd5574f3447c8f590f": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "8e01fbec3b932a3252ef": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ],
+  "d8649d55a6e1a22b92d9": [
+    {
+      "layer": 0,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 1,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 2,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 3,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 4,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 5,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 6,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 7,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 8,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 9,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 10,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 11,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 12,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 13,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 14,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 15,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 16,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 17,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 18,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 19,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 20,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 21,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 22,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 23,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 24,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 25,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 26,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 27,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 28,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 29,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 30,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 31,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 32,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 33,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 34,
+      "cot_drop": 0.0,
+      "control_drop": 0.0,
+      "cmi_raw": 0.0,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    },
+    {
+      "layer": 35,
+      "cot_drop": 0.0,
+      "control_drop": 0.0156,
+      "cmi_raw": -0.0156,
+      "cmi_score": 0.0,
+      "bypass_score": 1.0
+    }
+  ]
+}
