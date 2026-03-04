@@ -1,3 +1,9 @@
+# CoT Monitoring Toolkit
+
+**Paper:** *Bypassing the Rationale: Causal Auditing of Implicit Reasoning in Language Models*  
+**Accepted at LIT Workshop @ ICLR 2026**  
+https://arxiv.org/abs/2602.03994
+
 A monitoring toolkit for large language models that (i) scores **manipulative reasoning patterns** in chain-of-thought (CoT) traces in real time and (ii) **causally probes** whether model answers actually depend on those CoT activations or merely bypass them.
 
 The experiments and figures can be reproduced using the behavioural monitor under `cot_monitor/` and the causal CoT‑bypass monitor under `cot_bypass_monitor/`.
@@ -228,4 +234,28 @@ Use `data/cmi_summary_table.json` for the instance-level CoT Mediation Index / C
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Authors
+
+- **[Anish Sathyanarayanan](https://github.com/Anish-1101-lab)**
+- **[Aditya Nagarsekar](https://github.com/AdityaNagarsekar)**
+- **[Aarush Rathore](https://github.com/AarushRathore1729)**
+
+---
+
+##  Citation
+
+If you are using this repository in your research, please cite:
+
+```bibtex
+@misc{sathyanarayanan2026bypassingrationalecausalauditing,
+      title={Bypassing the Rationale: Causal Auditing of Implicit Reasoning in Language Models}, 
+      author={Anish Sathyanarayanan and Aditya Nagarsekar and Aarush Rathore},
+      year={2026},
+      eprint={2602.03994},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.03994}, 
+}
+
 
