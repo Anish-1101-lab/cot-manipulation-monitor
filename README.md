@@ -14,11 +14,11 @@ The experiments and figures can be reproduced using the behavioural monitor unde
 
 ```text
 repo/
-├── cot_bypass_monitor/                 # causal CoT-bypass (CoT Mediation Index / CoT Mediated Influence (CMI) / bypass) code
+├── cot_bypass_monitor/                 # causal CoT-bypass (CoT Mediation Index (CMI) / bypass) code
 │   └── good/
 │       ├── data/                       # datasets + causal outputs (local runs)
 │       │   ├── cmi_suite.json                # per-instance causal records
-│       │   ├── cmi_summary_table.json        # table-ready CoT Mediation Index / CoT Mediated Influence (CMI) summary
+│       │   ├── cmi_summary_table.json        # table-ready CoT Mediation Index (CMI) summary
 │       │   ├── cmi_layers_example.json       # example layerwise record
 │       │   ├── cmi_layers_all.json           # span-level records (all IDs)
 │       │   ├── cmi_layers_per_layer_all.json # per-layer records (all IDs)
@@ -31,11 +31,11 @@ repo/
 │       │   ├── monitor_results_all_metrics.jsonl # behavioural results (full)
 │       │   └── metric_deltas_summary.csv     # behavioural summary (copied)
 │       ├── data/qwen/                  # model-specific outputs (optional)
-│       ├── cot_bypass_monitor.py             # core CoT Mediation Index / CoT Mediated Influence (CMI) / bypass implementation
+│       ├── cot_bypass_monitor.py             # core CoT Mediation Index (CMI) / bypass implementation
 │       ├── cot_bypass_results.json           # optional raw runs
 │       ├── cot_bypass_results.jsonl          # optional raw runs (JSONL)
 │       ├── test_cmi.py                       # causal suite (arith / logic / QA)
-│       ├── test_cmi_layerwise_strategyqa.py  # layerwise CoT Mediation Index / CoT Mediated Influence (CMI) on StrategyQA
+│       ├── test_cmi_layerwise_strategyqa.py  # layerwise CoT Mediation Index (CMI) on StrategyQA
 │       ├── test_gsm8k.py                     # GSM8K evaluation
 │       └── test_truthqa.py                   # TruthfulQA evaluation
 │
@@ -63,7 +63,7 @@ repo/
 │   ├── cmi_layers_per_layer_all.json
 │   ├── cmi_suite.json
 │   ├── cmi_summary_table.json
-│   └── compute_dialo_summary.py     # CoT Mediation Index / CoT Mediated Influence (CMI) summary row for DialoGPT StrategyQA
+│   └── compute_dialo_summary.py     # CoT Mediation Index (CMI) summary row for DialoGPT StrategyQA
 │
 ├── modelsrun/                        # per-model layerwise CoT Mediation Index / CoT Mediated Influence (CMI) outputs + plots
 │   ├── cmi_layers_all_*.json          # span-level records by model
@@ -73,7 +73,7 @@ repo/
 │
 ├── scripts/
 │   ├── cmi_active_layers_avg.py     # avg active layers per model
-│   └── cmi_layers_positive.py       # layers with CoT Mediation Index / CoT Mediated Influence (CMI) > threshold per model
+│   └── cmi_layers_positive.py       # layers with CoT Mediation Index (CMI) > threshold per model
 │
 ├── venv/                            # local virtual environment (not required by users)
 │
@@ -177,13 +177,13 @@ This reads from `cot_monitor/data/metric_deltas_summary.csv` and related files a
 
 These correspond to the plots described in the "Behavioural Monitor Results" section.
 
-## Causal CoT-Bypass Monitor (CoT Mediation Index / CoT Mediated Influence (CMI) / Bypass)
+## Causal CoT-Bypass Monitor (CoT Mediation Index / Bypass)
 
-The causal monitor estimates whether answers causally depend on CoT token activations via hidden-state patching, as defined in the paper (CoT Mediation Index / CoT Mediated Influence (CMI), and bypass = 1−CMI).
+The causal monitor estimates whether answers causally depend on CoT token activations via hidden-state patching, as defined in the paper (CoT Mediation Index (CMI), and bypass = 1−CMI).
 
 All causal scripts and data live under `cot_bypass_monitor/good/`.
 
-### Instance-level CoT Mediation Index / CoT Mediated Influence (CMI) suite
+### Instance-level CoT Mediation Index suite
 
 The `test_cmi.py` script runs a small suite of arithmetic, logic, and QA prompts with and without CoT, then computes span-averaged CoT Mediation Index / CoT Mediated Influence (CMI) and bypass per instance.
 
@@ -196,7 +196,7 @@ python test_cmi.py
 
 This produces per-run JSONs under `cot_bypass_monitor/good/data/` (plus any custom output directories your scripts target). Some runs may optionally write to `cot_bypass_monitor/good/data/qwen/`.
 
-The rows in `cmi_summary_table.json` directly correspond to the instance-level CoT Mediation Index / CoT Mediated Influence (CMI) table in the paper.
+The rows in `cmi_summary_table.json` directly correspond to the instance-level CoT Mediation Index (CMI) table in the paper.
 
 ### Causal plots (layer drop means)
 
@@ -224,11 +224,11 @@ Figures are written under `figures_and_data/behavioural_module/`.
 
 ```bash
 cd cot_bypass_monitor/good
-python test_cmi.py        # writes CoT Mediation Index / CoT Mediated Influence (CMI) tables to data/
+python test_cmi.py        # writes CoT Mediation Index (CMI) tables to data/
 python plots.py           # writes causal figures (e.g., new_plot_layer_heatmap.png)
 ```
 
-Use `data/cmi_summary_table.json` for the instance-level CoT Mediation Index / CoT Mediated Influence (CMI) table and `new_plot_layer_heatmap.png` for the layerwise summary.
+Use `data/cmi_summary_table.json` for the instance-level CoT Mediation Index (CMI) table and `new_plot_layer_heatmap.png` for the layerwise summary.
 
 
 ## License
@@ -257,5 +257,6 @@ If you are using this repository in your research, please cite:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2602.03994}, 
 }
+
 
 
