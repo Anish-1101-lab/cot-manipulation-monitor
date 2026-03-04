@@ -65,7 +65,7 @@ repo/
 │   ├── cmi_summary_table.json
 │   └── compute_dialo_summary.py     # CoT Mediation Index (CMI) summary row for DialoGPT StrategyQA
 │
-├── modelsrun/                        # per-model layerwise CoT Mediation Index / CoT Mediated Influence (CMI) outputs + plots
+├── modelsrun/                        # per-model layerwise CoT Mediation Index (CMI) outputs + plots
 │   ├── cmi_layers_all_*.json          # span-level records by model
 │   ├── cmi_layers_per_layer_all_*.json# per-layer records by model
 │   ├── new_plot_layer_drop_means_*.png# layer drop means plots
@@ -177,7 +177,7 @@ This reads from `cot_monitor/data/metric_deltas_summary.csv` and related files a
 
 These correspond to the plots described in the "Behavioural Monitor Results" section.
 
-## Causal CoT-Bypass Monitor (CoT Mediation Index / Bypass)
+## Causal CoT-Bypass Monitor 
 
 The causal monitor estimates whether answers causally depend on CoT token activations via hidden-state patching, as defined in the paper (CoT Mediation Index (CMI), and bypass = 1−CMI).
 
@@ -257,6 +257,7 @@ If you are using this repository in your research, please cite:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2602.03994}, 
 }
+
 
 
 
